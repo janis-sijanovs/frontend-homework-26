@@ -16,6 +16,7 @@ export const surfaceColor = {
   "grassy hills": "#1c4d2c",
   "acid pools": "#03fc03",
   swamps: "#279123",
+  swamp: "#279123",
   cityscape: "#736c9e",
   ocean: "#005591",
   oceans: "#005591",
