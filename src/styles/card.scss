@@ -1,0 +1,40 @@
+.card__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 15px;
+    height: 100%;
+}
+
+.card__title {
+    color: rgb(85, 0, 0);
+    font-weight: bold;
+}
+
+.card__hr {
+    border-color: black;
+    border-width: 2px;
+    margin: 15px 0;
+    width: 50%;
+    border-width: 50%;
+}
+
+.card__more-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    font-family: inherit;
+    color: inherit;
+    font-size: inherit;
+    align-self: flex-end;
+    cursor: pointer;
+    border: none;
+    transition: .2s;
+
+    &:hover {
+        transform: scale(1.2);
+        font-weight: bold;
+        color: rgb(85, 0, 0);
+    }
+}

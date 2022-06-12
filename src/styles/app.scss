@@ -1,0 +1,26 @@
+.app {
+    min-height: 100vh;
+    background-color: rgb(39, 39, 39);
+}
+
+.navigation {
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(22, 22, 22);
+    color: rgb(110, 110, 110);
+}
+
+.navigation a {
+    font-weight: bold;
+    color: #929292;
+
+    &.router-link-exact-active {
+        color: rgb(79, 167, 167);
+    }
+  }
+
+.highlighted-planet {
+    font-weight: bold;
+    color: rgb(79, 167, 167);
+    text-decoration: underline;
+}
