@@ -1,24 +1,14 @@
-# codelex-md-24
+# Frontend Homework 26
 
-## Project setup
-```
-npm install
-```
+I have finished my twenty-sixth homework.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+This one was a lot of work. Spent multiple nights without sleep.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Could've worked more on the design, I'm not great at design.
 
-### Lints and fixes files
-```
-npm run lint
-```
+Planet generation lacks fun options
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+There are a few type errors that showed up 
+when making the planet generator. I'll ignore them for now.
+
+I do like a lot of things that have been made here.
