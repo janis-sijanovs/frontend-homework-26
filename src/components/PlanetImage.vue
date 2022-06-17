@@ -12,13 +12,14 @@ export default defineComponent({
   setup(props) {
     const planetColor = computed(() => {
       if (props.planet?.terrain) {
-        const targetTerrain = props.planet?.terrain.split(", ");
+        const targetTerrain: any = props.planet?.terrain.split(", ");
         if (targetTerrain.length === 1) {
-          const color = surfaceColor[targetTerrain[0]];
+          const searchIndex: (keyof typeof surfaceColor)[] = targetTerrain;
+          const color = surfaceColor[searchIndex[0]];
           console.log(color);
           return color;
         } else {
-          const target =
+          const target: keyof typeof surfaceColor =
             targetTerrain[Math.floor(Math.random() * targetTerrain.length)];
           const color = surfaceColor[target];
           console.log(targetTerrain);
